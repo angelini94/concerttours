@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="platform" uuid="608ae8f6-8ef1-454d-91d5-c6da7e37c245">
+      <driver-ref>hsqldb.remote</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>hybris
+
+/home/marco/src/CXCOMM190500P_0-70004140/hybris/bin/platform/project.properties</remarks>
+      <jdbc-driver>org.hsqldb.jdbcDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/../../../../data/hsqldb/mydb;shutdown=true;hsqldb.tx=MVCC;hsqldb.log_size=256</jdbc-url>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="b2bcommercefacadesspring" name="b2bcommercefacadesspring" removed="false">
+          <dependency>platformspring==platform</dependency>
+          <dependency>commercefacadesspring==commercefacades</dependency>
+          <dependency>b2bcommercespring==b2bcommerce</dependency>
+          <file>file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/project.properties</file>
+          <file>file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/resources/b2bcommercefacades-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/b2b-commerce/b2bcommercefacades/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="platform" exported="" />
+    <orderEntry type="module" module-name="commercefacades" exported="" />
+    <orderEntry type="module" module-name="b2bcommerce" exported="" />
+  </component>
+</module>

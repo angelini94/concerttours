@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="concerttours" />
+    <orderEntry type="module" module-name="adaptivesearchsolr" />
+    <orderEntry type="module" module-name="adaptivesearchbackoffice" />
+    <orderEntry type="module" module-name="adaptivesearchsamplesaddon" />
+    <orderEntry type="module" module-name="adaptivesearchwebservices" />
+    <orderEntry type="module" module-name="b2bcommercebackoffice" />
+    <orderEntry type="module" module-name="solrfacetsearchbackoffice" />
+    <orderEntry type="module" module-name="yacceleratorbackoffice" />
+    <orderEntry type="module" module-name="yacceleratorinitialdata" />
+    <orderEntry type="module" module-name="yacceleratorfulfilmentprocess" />
+    <orderEntry type="module" module-name="ycommercewebservices" />
+    <orderEntry type="module" module-name="orderselfserviceaddon" />
+    <orderEntry type="module" module-name="powertoolsstore" />
+    <orderEntry type="module" module-name="solrserver" />
+    <orderEntry type="module" module-name="acceleratorwebservicesaddon" />
+    <orderEntry type="module" module-name="b2bacceleratoraddon" />
+    <orderEntry type="module" module-name="commerceorgsamplesaddon" />
+    <orderEntry type="module" module-name="b2bpunchoutaddon" />
+    <orderEntry type="module" module-name="secureportaladdon" />
+    <orderEntry type="module" module-name="savedorderformsoccaddon" />
+    <orderEntry type="module" module-name="b2boccaddon" />
+    <orderEntry type="module" module-name="accountsummaryaddon" />
+    <orderEntry type="module" module-name="assistedservicestorefront" />
+    <orderEntry type="module" module-name="assistedservicewebservices" />
+    <orderEntry type="module" module-name="captchaaddon" />
+    <orderEntry type="module" module-name="customerticketingaddon" />
+    <orderEntry type="module" module-name="customersupportbackoffice" />
+    <orderEntry type="module" module-name="rulebuilderbackoffice" />
+    <orderEntry type="module" module-name="couponbackoffice" />
+    <orderEntry type="module" module-name="droolsruleengineservices" />
+    <orderEntry type="module" module-name="couponfacades" />
+    <orderEntry type="module" module-name="couponservices" />
+    <orderEntry type="module" module-name="promotionenginesamplesaddon" />
+    <orderEntry type="module" module-name="textfieldconfiguratortemplatebackoffice" />
+    <orderEntry type="module" module-name="textfieldconfiguratortemplateaddon" />
+    <orderEntry type="module" module-name="cmswebservices" />
+    <orderEntry type="module" module-name="smarteditwebservices" />
+    <orderEntry type="module" module-name="permissionswebservices" />
+    <orderEntry type="module" module-name="smarteditaddon" />
+    <orderEntry type="module" module-name="cmssmartedit" />
+    <orderEntry type="module" module-name="cmsbackoffice" />
+    <orderEntry type="module" module-name="previewwebservices" />
+    <orderEntry type="module" module-name="cmssmarteditwebservices" />
+    <orderEntry type="module" module-name="cmsoccaddon" />
+    <orderEntry type="module" module-name="previewpersonalizationweb" />
+    <orderEntry type="module" module-name="personalizationcmsweb" />
+    <orderEntry type="module" module-name="personalizationsmartedit" />
+    <orderEntry type="module" module-name="personalizationpromotionssmartedit" />
+    <orderEntry type="module" module-name="personalizationsampledataaddon" />
+    <orderEntry type="module" module-name="personalizationpromotionssampledataaddon" />
+    <orderEntry type="module" module-name="personalizationpromotions" />
+    <orderEntry type="module" module-name="personalizationpromotionsweb" />
+    <orderEntry type="module" module-name="personalizationservicesbackoffice" />
+    <orderEntry type="module" module-name="personalizationpromotionsbackoffice" />
+    <orderEntry type="module" module-name="personalizationcmsbackoffice" />
+    <orderEntry type="module" module-name="personalizationsearchbackoffice" />
+    <orderEntry type="module" module-name="personalizationsearchsmartedit" />
+    <orderEntry type="module" module-name="personalizationsearchweb" />
+    <orderEntry type="module" module-name="personalizationsearchsamplesaddon" />
+    <orderEntry type="module" module-name="consignmenttrackingaddon" />
+    <orderEntry type="module" module-name="consignmenttrackingmock" />
+    <orderEntry type="module" module-name="consignmenttrackingbackoffice" />
+    <orderEntry type="module" module-name="pcmbackofficesamplesaddon" />
+    <orderEntry type="module" module-name="configurablebundleaddon" />
+    <orderEntry type="module" module-name="consignmenttrackingoccaddon" />
+    <orderEntry type="module" module-name="outboundservices" />
+    <orderEntry type="module" module-name="odata2webservices" />
+    <orderEntry type="module" module-name="odata2webservicesfeaturetests" />
+    <orderEntry type="module" module-name="kymaintegrationbackoffice" />
+    <orderEntry type="module" module-name="yb2bacceleratorstorefront" />
+  </component>
+</module>

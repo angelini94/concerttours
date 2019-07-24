@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-3.1.xsd"
+>
+    <context:component-scan base-package="concerttours"/>
+
+    <alias name = "defaultBandService" alias = "bandService" />
+    <bean id = "defaultBandService" class = "concerttours.service.impl.DefaultBandService" >
+        <property name = "bandDAO" ref = "bandDAO" />
+    </bean>
+
+    <alias name = "defaultBandFacade" alias = "bandFacade" />
+    <bean id = "defaultBandFacade" class ="concerttours.facades.impl.DefaultBandFacade" >
+        <property name = "bandService" ref = "bandService" />
+        <property name="mediaService" ref="mediaService"/>
+    </bean>
+
+    <alias name = "defaultTourFacade" alias = "tourFacade" />
+    <bean id = "defaultTourFacade" class ="concerttours.facades.impl.DefaultTourFacade" >
+        <property name = "productService" ref = "productService" />
+    </bean>
+
+    <bean id="ConcerttoursCustomSetup" class="concerttours.setup.ConcerttoursCustomSetup" >
+        <property name="importService" ref="importService"/>
+    </bean>
+
+    <bean id="concerttoursSystemSetup" class="concerttours.setup.ConcerttoursSystemSetup">
+        <!-- constructor arg injection example -->
+        <constructor-arg ref="concerttoursService"/>
+    </bean>
+
+    <bean id="concerttoursService" class="concerttours.service.impl.DefaultConcerttoursService">
+        <!-- setter injection example -->
+        <property name="modelService" ref="modelService"/>
+        <property name="mediaService" ref="mediaService"/>
+        <property name="flexibleSearchService" ref="flexibleSearchService"/>
+    </bean>
+
+    <bean id="concertDaysUntilAttributeHandler" class="concerttours.attributehandlers.ConcertDaysUntilAttributeHandler"/>
+
+    <bean id="concerttourEventListener" class="concerttours.events.NewBandEventListener" parent="abstractEventListener">
+        <property name="modelService" ref="modelService" />
+    </bean>
+
+    <bean id="bandAlbumSalesInterceptor" class="concerttours.interceptors.BandAlbumSalesInterceptor" />
+    <bean id="BandInterceptorMapping" class="de.hybris.platform.servicelayer.interceptor.impl.InterceptorMapping">
+        <property name="interceptor" ref="bandAlbumSalesInterceptor" />
+        <property name="typeCode" value="Band" />
+    </bean>
+    <bean id="bandAlbumSalesEventListener" class="concerttours.events.BandAlbumSalesEventListener" parent="abstractEventListener" >
+        <property name="modelService" ref="modelService" />
+    </bean>
+
+    <alias name="defaultNewsService" alias="newsService" />
+    <bean id="defaultNewsService" class="concerttours.service.impl.DefaultNewsService">
+        <property name="newsDAO" ref="newsDAO" />
+    </bean>
+    <bean id="sendNewsJob" class="concerttours.jobs.SendNewsJob" parent="abstractJobPerformable">
+        <property name="newsService" ref="newsService" />
+        <property name="configurationService" ref="configurationService" />
+    </bean>
+
+</beans>

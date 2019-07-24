@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="yacceleratorbackofficespring" name="yacceleratorbackofficespring" removed="false">
+          <dependency>backofficespring==backoffice</dependency>
+          <dependency>acceleratorbackofficespring==acceleratorbackoffice</dependency>
+          <dependency>yacceleratorcorespring==yacceleratorcore</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/project.properties</file>
+          <file>file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/resources/yacceleratorbackoffice-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice">
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../modules/base-accelerator/yacceleratorbackoffice/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="backoffice" exported="" />
+    <orderEntry type="module" module-name="acceleratorbackoffice" exported="" />
+    <orderEntry type="module" module-name="yacceleratorcore" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

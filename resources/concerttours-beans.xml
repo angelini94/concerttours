@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+ Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+-->
+<!--
+	ATTENTION: This is just an example file. You have to edit it according to your needs.
+-->
+
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="beans.xsd">
+
+	<bean class = "concerttours.data.TourSummaryData">
+		<description >Data object for a tour summary which has no equivalent on the type system</description>
+		<property name = "id" type = "String" />
+		<property name = "tourName" type = "String" />
+		<property name = "numberOfConcerts" type = "String" />
+	</bean>
+	<bean class = "concerttours.data.BandData" >
+		<description>Data object representing a Band</description>
+		<property name = "id" type = "String" />
+		<property name = "name" type = "String" />
+		<property name = "description" type = "String" />
+		<property name = "albumsSold" type = "Long" />
+		<property name = "genres" type="java.util.List&lt;String&gt;"/>
+		<property name = "tours" type="java.util.List&lt;concerttours.data.TourSummaryData&gt;"/>
+		<property name="imageURL" type="String" />
+	</bean>
+	<bean class = "concerttours.data.ConcertSummaryData">
+		<description >Data object for a concert summary</description>
+		<property name = "id" type = "String" />
+		<property name = "date" type = "java.util.Date" />
+		<property name = "venue" type = "String" />
+		<property name = "type" type = "String" />
+		<property name = "countDown" type="Long"/>
+	</bean>
+	<bean class = "concerttours.data.TourData" >
+		<description>Data object representing a tour</description>
+		<property name = "id" type = "String" />
+		<property name = "tourName" type = "String" />
+		<property name = "description" type = "String" />
+		<property name = "concerts" type="java.util.List&lt;concerttours.data.ConcertSummaryData&gt;"/>
+	</bean>
+
+</beans>

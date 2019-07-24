@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="CUSTOM" importedAsReadOnly="false" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="yb2bacceleratorstorefrontspring" name="yb2bacceleratorstorefrontspring" removed="false">
+          <dependency>captchaaddonspring==captchaaddon</dependency>
+          <dependency>b2bacceleratoraddonspring==b2bacceleratoraddon</dependency>
+          <dependency>smarteditaddonspring==smarteditaddon</dependency>
+          <dependency>customerticketingaddonspring==customerticketingaddon</dependency>
+          <dependency>pcmbackofficesamplesaddonspring==pcmbackofficesamplesaddon</dependency>
+          <dependency>assistedservicestorefrontspring==assistedservicestorefront</dependency>
+          <dependency>promotionenginesamplesaddonspring==promotionenginesamplesaddon</dependency>
+          <dependency>configurablebundleaddonspring==configurablebundleaddon</dependency>
+          <dependency>secureportaladdonspring==secureportaladdon</dependency>
+          <dependency>textfieldconfiguratortemplateaddonspring==textfieldconfiguratortemplateaddon</dependency>
+          <dependency>b2bpunchoutaddonspring==b2bpunchoutaddon</dependency>
+          <dependency>acceleratorstorefrontcommonsspring==acceleratorstorefrontcommons</dependency>
+          <dependency>yacceleratorfacadesspring==yacceleratorfacades</dependency>
+          <dependency>commerceorgsamplesaddonspring==commerceorgsamplesaddon</dependency>
+          <dependency>consignmenttrackingaddonspring==consignmenttrackingaddon</dependency>
+          <dependency>commerceorgaddonspring==commerceorgaddon</dependency>
+          <dependency>orderselfserviceaddonspring==orderselfserviceaddon</dependency>
+          <dependency>adaptivesearchsamplesaddonspring==adaptivesearchsamplesaddon</dependency>
+          <dependency>accountsummaryaddonspring==accountsummaryaddon</dependency>
+          <dependency>personalizationsearchsamplesaddonspring==personalizationsearchsamplesaddon</dependency>
+          <file>file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/webroot/WEB-INF/config/web-application-config.xml</file>
+          <file>file://$MODULE_DIR$/../../yb2bacceleratorstorefront/project.properties</file>
+          <file>file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/webroot/WEB-INF/config/multi-step-checkout-config.xml</file>
+          <file>file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/webroot/WEB-INF/config/spring-filter-config.xml</file>
+          <file>file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/webroot/WEB-INF/config/spring-cms-config.xml</file>
+          <file>file://$MODULE_DIR$/../../../modules/core-accelerator/acceleratorcms/resources/acceleratorcms/spring/web-spring-context.xml</file>
+          <file>file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/webroot/WEB-INF/config/spring-mvc-config.xml</file>
+          <file>file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/webroot/WEB-INF/config/spring-security-config.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/webroot" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/src" />
+          <root url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/gensrc" />
+          <root url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/resources" />
+          <root url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/src" />
+          <root url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/gensrc" />
+          <root url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/commonweb/src" />
+          <root url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/commonweb/gensrc" />
+          <root url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/acceleratoraddon/web/src" />
+          <root url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/acceleratoraddon/web/gensrc" />
+          <root url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/backoffice/src" />
+          <root url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/backoffice/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront">
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/backoffice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/backoffice/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/backoffice/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/webroot/WEB-INF/classes" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../yb2bacceleratorstorefront/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="captchaaddon" exported="" />
+    <orderEntry type="module" module-name="b2bacceleratoraddon" exported="" />
+    <orderEntry type="module" module-name="smarteditaddon" exported="" />
+    <orderEntry type="module" module-name="customerticketingaddon" exported="" />
+    <orderEntry type="module" module-name="pcmbackofficesamplesaddon" exported="" />
+    <orderEntry type="module" module-name="assistedservicestorefront" exported="" />
+    <orderEntry type="module" module-name="promotionenginesamplesaddon" exported="" />
+    <orderEntry type="module" module-name="configurablebundleaddon" exported="" />
+    <orderEntry type="module" module-name="secureportaladdon" exported="" />
+    <orderEntry type="module" module-name="textfieldconfiguratortemplateaddon" exported="" />
+    <orderEntry type="module" module-name="b2bpunchoutaddon" exported="" />
+    <orderEntry type="module" module-name="acceleratorstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="yacceleratorfacades" exported="" />
+    <orderEntry type="module" module-name="commerceorgsamplesaddon" exported="" />
+    <orderEntry type="module" module-name="consignmenttrackingaddon" exported="" />
+    <orderEntry type="module" module-name="commerceorgaddon" exported="" />
+    <orderEntry type="module" module-name="orderselfserviceaddon" exported="" />
+    <orderEntry type="module" module-name="adaptivesearchsamplesaddon" exported="" />
+    <orderEntry type="module" module-name="accountsummaryaddon" exported="" />
+    <orderEntry type="module" module-name="personalizationsearchsamplesaddon" exported="" />
+  </component>
+</module>
